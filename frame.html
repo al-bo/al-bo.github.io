@@ -1,0 +1,26 @@
+<html>
+<head></head>
+
+<body>
+
+
+
+<div id="msg">
+
+</div>
+
+
+
+<script>
+var msg = document.getElementById('msg');
+
+
+if (window.parent && window.parent.foo) {
+	msg.textContent = window.parent.foo();	
+} else {
+	msg.textContent = 'ERROR';
+}
+
+</script>
+</body>
+</html>
