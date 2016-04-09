@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Google maps test</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script src="./libs/path.js"></script>
+</head>
+<body>
+<div class="page" id="login-page">
+<h2>
+    Login:
+</h2>
+    <div class="mdl-textfield mdl-js-textfield login-input">
+        <input class="mdl-textfield__input" type="text" id="login-input">
+        <label class="mdl-textfield__label" for="login-input">Login...</label>
+    </div>
+
+    <div class="mdl-textfield mdl-js-textfield login-input">
+        <input class="mdl-textfield__input" type="password" id="password-input">
+        <label class="mdl-textfield__label" for="password-input">Enter password</label>
+    </div>
+
+    <a href="#map" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+    Login
+    </a>
+
+
+</div>
+
+<div class="page" id="map-page">
+    <h3>Some map</h3>
+    <div id="map">
+
+    </div>
+
+</div>
+
+<div class="page" id="test-page">
+
+</div>
+
+<script src="app.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA75uZXoBpY-ovmGLqnbPjjHJcY73sLPxc&callback=initMap">
+</script>
+
+
+</body>
+</html>
