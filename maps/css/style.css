@@ -2,14 +2,17 @@
   width: 100%;
   height: 100%;
   display: none;
-  text-align: center; }
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0; }
   .page.active {
     display: block; }
 
 #login-page h2 {
   text-align: center;
-  margin: 0; 
-  margin-top:10px;}
+  margin: 0;
+  margin-top: 15px; }
 
 #login-page .login-input {
   display: block;
@@ -22,6 +25,14 @@
   background: grey;
   width: 100%;
   height: 400px; }
+
+#user-list {
+  margin: 0 auto;
+  text-align: center;
+  width: 300px; }
+  #user-list li span {
+    text-align: center;
+    border-bottom: 1px solid #dadada; }
 
 @media (max-width: 600px) {
   .login-input {

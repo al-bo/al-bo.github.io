@@ -1,0 +1,65 @@
+html {
+
+}
+.page {
+  width: 100%;
+  height: 100%;
+  display: none;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  &.active {
+    display: block;
+  }
+}
+#login-page {
+  h2 {
+    text-align: center;
+    margin: 0;
+    margin-top: 15px;
+  }
+  .login-input {
+  display: block;
+    margin: 0 auto;
+  }
+}
+
+#map-page {
+  h3 {
+    margin: 0;
+  }
+}
+#map {
+  background: grey;
+  width: 100%;
+  height: 400px;
+}
+#user-list {
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  li span {
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+  }
+}
+@media (max-width:600px) {
+  .login-input {
+    width: 80%;
+  input {
+    font-size: 36px;
+  }
+    label {
+      font-size: 25px;
+    }
+  }
+    h2 {
+    font-size: 66px;
+  }
+  .mdl-button {
+    height: 60px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
